@@ -4,3 +4,18 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+
+.fa-check-circle{
+    color: #5243C2;
+}
+
+.white{
+    color: #fff;
+}
+p{
+    color: #6C6C6C;
+}
+
+.content-bold{
+    font-weight: 600;
+}
