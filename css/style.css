@@ -5,8 +5,13 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* common tag */
+
 .common-class{
     max-height: 800px;
+}
+.common-class-4{
+    min-height: 800px;
 }
 .common-class-0{
     min-height: 600px;
@@ -17,6 +22,55 @@
 .common-class-2{
     min-height: 700px;
 }
+
+.special-tag {
+  border-radius: 15px;
+  margin-top: -25px;
+}
+
+/* carousel slider section */
+
+.carousel-item:nth-child(1) img {
+  background-image: url("images/banner-1.jpg");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.carousel-item:nth-child(2) img {
+  background-image: url("images/banner-2.jpg");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.carousel-item:nth-child(3) img {
+  background-image: url("./images/banner-3.jpeg");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.carousel .carousel-control-prev-icon {
+  /* change fill="currentColor" to %23fff to make it white  */
+  background-image: url('data:image/svg+xml,<svg width="24px" height="24px" viewBox="0 0 24 24" id="736d2dce-205b-4e1d-a8de-21d9524ba21c" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg"><g id="6037caba-d996-4e01-a295-2e233316e41b" data-name="Arrow Left"><path d="M16.23,23.58l2.24-2a0.5,0.5,0,0,0,0-.71L10.57,12,18.5,3.13a0.5,0.5,0,0,0,0-.71l-2.24-2a0.5,0.5,0,0,0-.71,0L5.2,12,15.52,23.54A0.5,0.5,0,0,0,16.23,23.58Z"/></g></svg>');
+}
+    
+.carousel .carousel-control-next-icon {
+  /* change fill="currentColor" to %23fff to make it white  */
+  background-image: url('data:image/svg+xml,<svg width="24px" height="24px" viewBox="0 0 24 24" id="fa26cff6-f100-48f4-a81c-6e0cb8b1ea4a" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg"><g id="880b5b52-5578-436c-a64a-10a281e56ea6" data-name="Arrow Left"><path d="M7.77,23.58l-2.24-2a0.5,0.5,0,0,1,0-.71L13.43,12,5.5,3.13a0.5,0.5,0,0,1,0-.71l2.24-2a0.5,0.5,0,0,1,.71,0L18.8,12,8.48,23.54A0.5,0.5,0,0,1,7.77,23.58Z"/></g></svg>');
+}
+    
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  /* Use to adjust size of icons */
+  width: 3rem;
+   height: 3rem;
+}  
+
 
 .fa-check-circle {
   color: #5243c2;
@@ -33,45 +87,54 @@ p {
   font-weight: 600;
 }
 
-.carousel .carousel-control-prev-icon {
-  /* change fill="currentColor" to %23fff to make it white  */
-  background-image: url('data:image/svg+xml,<svg width="24px" height="24px" viewBox="0 0 24 24" id="736d2dce-205b-4e1d-a8de-21d9524ba21c" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg"><g id="6037caba-d996-4e01-a295-2e233316e41b" data-name="Arrow Left"><path d="M16.23,23.58l2.24-2a0.5,0.5,0,0,0,0-.71L10.57,12,18.5,3.13a0.5,0.5,0,0,0,0-.71l-2.24-2a0.5,0.5,0,0,0-.71,0L5.2,12,15.52,23.54A0.5,0.5,0,0,0,16.23,23.58Z"/></g></svg>');
-}
-    
-.carousel .carousel-control-next-icon {
-  /* change fill="currentColor" to %23fff to make it white  */
-  background-image: url('data:image/svg+xml,<svg width="24px" height="24px" viewBox="0 0 24 24" id="fa26cff6-f100-48f4-a81c-6e0cb8b1ea4a" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg"><g id="880b5b52-5578-436c-a64a-10a281e56ea6" data-name="Arrow Left"><path d="M7.77,23.58l-2.24-2a0.5,0.5,0,0,1,0-.71L13.43,12,5.5,3.13a0.5,0.5,0,0,1,0-.71l2.24-2a0.5,0.5,0,0,1,.71,0L18.8,12,8.48,23.54A0.5,0.5,0,0,1,7.77,23.58Z"/></g></svg>');
-}
-    
-    
-.carousel-control-next-icon, .carousel-control-prev-icon {
-  /* Use to adjust size of icons */
-  width: 3rem;
-   height: 3rem;
-}  
+/* contact form section */
 
-.height-100 {
-  height: 25vh
+input {
+	outline: none;
+	border: none;
 }
 
-.form-control {
-  height: 70px;
-  background-color: #000;
-  font-size: 22px;
-  color: #fff
-}
-
-.form-control:focus {
-  background-color: #000;
-  box-shadow: none;
+textarea {
+  outline: none;
   border: none;
-  color: #fff
 }
 
-.search button {
-  top: 10px;
-  width: 120px;
-  height: 50px;
-  right: 10px;
-  font-size: 17px
+textarea:focus, input:focus {
+  border-color: transparent !important;
 }
+
+
+.container-contact1 {
+  padding: 90px 130px 88px 148px;
+}
+
+input.input1 {
+  height: 50px;
+  border-radius: 15px;
+  padding: 0 30px;
+}
+input.input1 + .shadow-input1 {
+  border-radius: 15px;
+}
+
+textarea.input1 {
+  min-height: 150px;
+  border-radius: 15px;
+  padding: 12px 30px;
+}
+textarea.input1 + .shadow-input1 {
+  border-radius: 25px;
+}
+
+.wrap-input1 {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+.input1 {
+  display: block;
+  width: 100%;
+  background: #e6e6e6;
+}
+
