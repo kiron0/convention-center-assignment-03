@@ -113,3 +113,9 @@
   font-weight: 800;
   color: #fff;
 }
+
+@media (max-width:768px) {
+  .reverse-main {
+      order: 1;
+  }  
+}
