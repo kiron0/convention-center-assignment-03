@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <!-- favicon link -->
-    <link rel="shortcut icon" href="icons/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./icons/favicon.png" class="favicon" type="image/x-icon" />
 
     <!-- font cdn link -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
@@ -41,7 +41,7 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
                         <li class="nav-item fw-bold">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -87,13 +87,13 @@
                                 Register today for your next event at our Convention Center.
                                 And take advantage of all the opportunities
                             </p>
-                            <button class="btn text-primary fw-bold mb-5" style="
+                            <a href="https://programming-hero.com" target="_blank" class="btn text-primary fw-bold mb-5" style="
                     background-color: #ffffff;
                     border-radius: 5px;
                     padding: 13px 60px;
                   ">
                                 Book Now
-                            </button>
+                        </a>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -105,13 +105,13 @@
                                 Only we have the best facilities in the world. Which no one
                                 else can give.We are always at your service.
                             </p>
-                            <button class="btn text-primary fw-bold mb-5" style="
+                            <a href="https://programming-hero.com" target="_blank" class="btn text-primary fw-bold mb-5" style="
                     background-color: #ffffff;
                     border-radius: 5px;
                     padding: 13px 60px;
                   ">
                                 Learn More
-                            </button>
+                        </a>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -123,13 +123,13 @@
                                 We have a lot of companies in the world who helping us We took
                                 some moments with them in the photo gallery
                             </p>
-                            <button class="btn text-primary fw-bold mb-5" style="
+                            <a href="https://programming-hero.com" target="_blank" class="btn text-primary fw-bold mb-5" style="
                     background-color: #ffffff;
                     border-radius: 5px;
                     padding: 13px 60px;
                   ">
                                 Browse Gallery
-                            </button>
+                        </a>
                         </div>
                     </div>
                 </div>
@@ -197,7 +197,7 @@
         <section id="packages" class="container mt-5 common-class-0">
             <h1 class="text-center mb-15 content-bold">Our packages</h1>
             <div class="row mt-5">
-                <div class="col-lg-3 col-md-6 col-sm-12 ">
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
                     <div class="card border-0 p-3">
                         <div class="card-body">
                             <h2 class="card-title content-bold">$300</h2>
@@ -227,7 +227,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
                     <div class="card border-0 p-3">
                         <div class="card-body">
                             <h2 class="card-title content-bold">$500</h2>
@@ -257,7 +257,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
                     <div class="card border-0 p-3 lh-lg" style="
                 background-color: #3f87f5;
                 box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
@@ -287,14 +287,14 @@
                             <p class="card-text white">
                                 <i class="far fa-check-circle white"></i> Per day bill
                             </p>
-                            <div class="text-center"> <button class="btn text-primary fw-bold mb-5"
+                            <div class="text-center"> <button class="btn text-primary fw-bold mb-4"
                                     style="background-color: #fff; border-radius: 24px; padding: 13px 60px;">Choose
                                     Plan</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
                     <div class="card border-0 p-3">
                         <div class="card-body">
                             <h2 class="card-title content-bold">$1200</h2>
@@ -315,7 +315,7 @@
                             <p class="card-text">
                                 <i class="far fa-check-circle"></i> pay as plan
                             </p>
-                            <div class="text-center"> <button class="btn text-primary fw-bold mb-5"
+                            <div class="text-center"> <button class="btn text-primary fw-bold mb-5 mt-1"
                                     style="background-color: #f8e8f3;border-radius: 24px;padding: 13px 60px;">Choose
                                     Plan</button>
                             </div>
@@ -329,7 +329,7 @@
 
         <!-- Frequently Asked Questions Section Start -->
 
-        <section class="container mt-7 common-class-1">
+        <section class="container mt-7 common-class-1 mt-3">
             <h1 class="text-center mb-15 content-bold">
                 Frequently Asked Questions
             </h1>
@@ -338,7 +338,7 @@
                     <div class="col-md-6 col-sm-12 col-12 d-flex align-items-center gy-2 reverse-main">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item"
-                                style="border-radius: 5px; padding: 2px; border: 1px solid #d5e5fb;">
+                                style="border-radius: 5px; padding: 2px; box-shadow: 2px 2px 10px rgb(236, 236, 236); filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06)); border: 0;">
                                 <h2 class="accordion-header" id="flush-headingOne">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#flush-collapseOne" aria-expanded="true"
@@ -359,7 +359,7 @@
                             </div>
                             <br />
                             <div class="accordion-item"
-                                style="border-radius: 5px; padding: 2px; border: 1px solid #d5e5fb;">
+                                style="border-radius: 5px; padding: 2px; box-shadow: 2px 2px 10px rgb(236, 236, 236); filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06)); border: 0;">
                                 <h2 class="accordion-header" id="flush-headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#flush-collapseTwo" aria-expanded="true"
@@ -382,7 +382,7 @@
                             </div>
                             <br />
                             <div class="accordion-item"
-                                style="border-radius: 5px; padding: 2px; border: 1px solid #d5e5fb;">
+                                style="border-radius: 5px; padding: 2px; box-shadow: 2px 2px 10px rgb(236, 236, 236); filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06)); border: 0;">
                                 <h2 class="accordion-header" id="flush-headingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#flush-collapseThree" aria-expanded="true"
@@ -404,7 +404,7 @@
                             </div>
                             <br />
                             <div class="accordion-item"
-                                style="border-radius: 5px; padding: 2px; border: 1px solid #d5e5fb;">
+                                style="border-radius: 5px; padding: 2px; box-shadow: 2px 2px 10px rgb(236, 236, 236); filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06)); border: 0;">
                                 <h2 class="accordion-header" id="flush-headingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#flush-collapseFour" aria-expanded="true"
@@ -464,7 +464,7 @@
                                 <div class="info-box mt-4">
                                     <i class="bx bx-phone-call"></i>
                                     <h3>Call Us</h3>
-                                    <p>+880 185553-5091</p>
+                                    <p>+88 01855-535091</p>
                                 </div>
                             </div>
                         </div>

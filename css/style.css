@@ -8,6 +8,8 @@
 :root {
   --main-color: #264653;
   --secondary-color: #3f87f5;
+  --box-shadow: .4rem .4rem 1rem #ccc,
+  -.4rem -.4rem 1rem #fff;
 }
 
 /* common tag */
@@ -20,7 +22,6 @@
 }
 
 /* nav bar part */
-
 .navbar-toggler-icon{
   background-image: url("../icons/menu.svg") !important;
 }
@@ -73,6 +74,11 @@
 }
 
 /* packages part */
+.card{
+  box-shadow: var(--box-shadow);
+  filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+  border-radius: 15px !important;
+}
 
 .special-tag {
   border-radius: 15px;
@@ -85,6 +91,19 @@
 
 .white{
   color: #fff;
+}
+
+.fashion-image img{
+  border-radius: 20px;
+}
+
+/* accordion part */
+.accordion-item{
+  border-radius: 5px !important;
+  padding: 2px;
+  box-shadow: .4rem .4rem 1rem #ccc,
+  -.4rem -.4rem 1rem #fff;
+  border: none !important;
 }
 
 /* contact part */
@@ -114,7 +133,16 @@
   color: #fff;
 }
 
-@media (max-width:768px) {
+@media (max-width: 390px) {
+   .card{
+     margin-bottom: 3rem;
+   }
+
+   li .fa{
+     margin: 1.5rem 2.5rem;
+   }
+}
+@media (max-width: 768px) {
   .reverse-main {
       order: 1;
   }  
